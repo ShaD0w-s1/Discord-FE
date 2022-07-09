@@ -1,3 +1,10 @@
+/*
+ * Author: zhangyuxuan
+ * Date: 2022-05-14 23:21:53
+ * LastEditTime: 2022-06-18 17:22:52
+ * LastEditors: zhangyuxuan
+ * FilePath: \Discord-FE\config\paths.js
+ */
 'use strict';
 
 const path = require('path');
@@ -60,6 +67,9 @@ module.exports = {
   appIndexJs: resolveModule(resolveApp, 'src/index'),
   appPackageJson: resolveApp('package.json'),
   appSrc: resolveApp('src'),
+  appView: resolveApp('src/view'),
+  appComponents: resolveApp('src/components'),
+  appApi: resolveApp('src/api'),
   appTsConfig: resolveApp('tsconfig.json'),
   appJsConfig: resolveApp('jsconfig.json'),
   yarnLockFile: resolveApp('yarn.lock'),

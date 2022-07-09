@@ -1,0 +1,43 @@
+.wrapper {
+  box-sizing: border-box;
+  display: flex;
+  width: 72px;
+  height: 100%;
+  background-color: #202225;
+}
+
+.scroller {
+  padding-top: 12px;
+  overflow: hidden scroll;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.separator {
+  height: 2px;
+  width: 32px;
+  background-color: rgba(79, 84, 92, 0.48);
+}
+
+.unreadMentionsIndicator-top,
+.unreadMentionsIndicator-buttom {
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 72px;
+  overflow: hidden;
+  padding: 8px;
+}
+
+.unreadMentionsIndicator-top {
+  top: 0;
+  background-color: #202225;
+}
+
+.unreadMentionsIndicator-bottom {
+  bottom: 0;
+  background-color: #202225;
+}

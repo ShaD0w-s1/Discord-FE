@@ -1,8 +1,13 @@
+/*
+ * Author: zhangyuxuan
+ * Date: 2022-05-14 01:23:46
+ * LastEditTime: 2022-06-04 20:01:11
+ * LastEditors: zhangyuxuan
+ * FilePath: \Discord-FE\src\components\TodoList\todoinput.tsx
+ */
 import { SyntheticEvent, useState } from "react";
 
-import type { TodoItemProps } from "./todoitem";
-
-import "./todoinput.css";
+import { TodoItemProps } from "./todoitem";
 
 export interface TodoInputProps {
   onAdd: (args: TodoItemProps) => void;

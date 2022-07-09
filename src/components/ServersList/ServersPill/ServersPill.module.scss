@@ -1,0 +1,18 @@
+.servers-pill {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 4px;
+  height: 48px;
+
+  & > span {
+    position: absolute;
+    display: block;
+    width: 4px;
+    border-radius: 0 4px 4px 0;
+    background-color: #fff;
+  }
+}

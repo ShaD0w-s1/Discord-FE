@@ -1,23 +1,21 @@
 /*
  * Author: zhangyuxuan
  * Date: 2022-05-07 21:13:26
- * LastEditTime: 2022-05-14 23:10:24
+ * LastEditTime: 2022-06-17 20:25:42
  * LastEditors: zhangyuxuan
- * FilePath: \my-app\src\App.tsx
+ * FilePath: \Discord-FE\src\App.tsx
  */
 
-import React, { useEffect, useState } from "react";
 import "./App.css";
 
-import TodoList from "./components/todolist";
+import Router from "./routers";
 
 function App() {
   return (
     <>
-      <TodoList></TodoList>
+      <Router />
     </>
-  )
-    
+  );
 }
 
 export default App;
